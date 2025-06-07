@@ -1,0 +1,36 @@
+*{
+   text-align: center;  
+   /* universal selector  has lowest priority*/ 
+}
+
+body{
+    background-color: rgb(113, 22, 232);
+}
+
+
+h1{
+    color:white !important;   
+    text-align: left;
+    /* element selector */
+}
+
+#unique1{
+    color: red;  
+    /* id selector has  more priority  than class and element selector */
+}
+
+.special:hover{
+    color:chartreuse;
+    /* pseudo class selctor override universal and element selector */
+}
+p{
+    color:brown;
+}
+
+p{
+    color: rgb(228, 117, 26);
+    text-align: left;
+    font-size: 50px;
+
+    /* override first due to source order rule */
+}

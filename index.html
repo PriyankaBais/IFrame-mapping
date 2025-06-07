@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Iframe Example</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <iframe src="header.html" style="width: 100%; height: 100px;"></iframe>
+
+    <!-- Main Layout with Navigation and Content -->
+    <div style="display: flex;">
+        <!-- Left Navigation -->
+        <iframe src="navigation.html" style="width: 25%; height: 500px; border: rgb(7, 7, 6);"></iframe>
+
+        <!-- Main Content Area -->
+        <iframe src="main.html" name="mainFrame" style="width: 75%; height: 500px; border: none;"></iframe>
+    </div>
+
+    <!-- Footer Section -->
+    <iframe src="footer.html" style="width: 100%; height: 50px; border: none;"></iframe>
+</body>
+
+</html>
